@@ -1,0 +1,60 @@
+body {
+    background-color: tan;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.row {
+    width: 100%;
+}
+.menu-item {
+    background-color: saddlebrown;
+    border: 1px solid;
+    margin: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.item-name-1 {
+    background-color: pink;
+    border: 1px solid;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.item-name-2 {
+    background-color: orchid;
+    border: 1px solid;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.item-name-3 {
+    background-color: darkorchid;
+    border: 1px solid;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+span{
+    padding: 4px;
+}
+
+
+@media (min-width: 992px){
+    .col-lg-4{
+        float: left;
+        width: 32%;
+    }
+}
+@media (min-width: 768px) and (max-width:991px){
+    .col-md-6{
+        float: left;
+        width: 48%;
+    }
+}
+@media (max-width: 767px){
+    .col-xs-12{
+        float: left;
+        width: 98%;
+    }
+}
